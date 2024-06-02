@@ -1,0 +1,231 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="trupi.aspx.cs" Inherits="Personal_Portfolio.trupi.trupi" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Personal Portfolio Website</title>
+    <link href="../stili/stili.css" rel="stylesheet" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+    </form>
+    <!-- Header Section -->
+
+    <header class="header">
+        <a href="#home" class="logo">Daniel
+            <span>Bardhaj</span>
+        </a>
+        
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="">Home</a>
+            <a href="#education" class="">Education</a>
+            <a href="#services" class="">Services</a>
+            <a href="#testimonials" class="">Testimonials</a>
+            <a href="#contact" class="">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Daniel</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+            <p>Daniel, a budding web developer eager to learn and grow in the world of technology. With a passion for coding and a thirst for knowledge, im embarking on an exciting journey to explore the endless possibilities of web development. Driven by ambition and fueled by curiosity, im ready to dive into the world of HTML, CSS, and JavaScript to create amazing digital experiences.
+
+</p>
+
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-facebook-square'></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#" class="btn">Download CV</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="../personal%20portfolio%20images/Image1.jpeg"  alt="Profile" />
+        </div>
+    </section>
+
+    <!-- Education Section -->
+
+    <section id="education" class="education">
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2021</div>
+                <div class="timeline-content">
+                    <h3>High School</h3>
+                    <p>2017-2020 Zejmen-Lezhe-Albania.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022</div>
+                <div class="timeline-content">
+                    <h3>University</h3>
+                    <p>2020-2023 Aleksander-Moisiu-Durres.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2023</div>
+                <div class="timeline-content">
+                    <h3>Internship</h3>
+                    <p>January 2024.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>Job</h3>
+                    <p>May 2024.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Services Section -->
+
+    <section id="services" class="services">
+        <h2 class="heading">Services</h2>
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>UI Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum magni sunt voluptates pariatur cumque. Alias dolor beatae molestias iure cum.
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Frontend Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum magni sunt voluptates pariatur cumque. Alias dolor beatae molestias iure cum.
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Backend Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum magni sunt voluptates pariatur cumque. Alias dolor beatae molestias iure cum.
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Blockchain Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum magni sunt voluptates pariatur cumque. Alias dolor beatae molestias iure cum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Testimonials Section -->
+
+    <section id="testimonials" class="testimonials">
+        <div class="testimonials-box">
+            <h2 class="heading">Testimonials</h2>
+
+            <div class="wrapper">
+                <div class="testimonial-item">
+                    <img src="../personal%20portfolio%20images/Image3.jpeg" alt="" />
+                    <h2>Mark</h2>
+                    <div class="rating">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius reiciendis consequatur officia
+                        recusandae porro at?</p>
+                </div>
+
+                <div class="testimonial-item">
+                    <img src="../personal%20portfolio%20images/Image2.jpeg" alt="">
+                    <h2>Steve</h2>
+                    <div class="rating">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius reiciendis consequatur officia
+                        recusandae porro at?</p>
+                </div>
+
+                <div class="testimonial-item">
+                    <img src="../personal%20portfolio%20images/Image4.jpeg" alt="">
+                    <h2>Devid</h2>
+                    <div class="rating">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius reiciendis consequatur officia
+                        recusandae porro at?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section id="contact" class="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-facebook-square'></i></a>
+        </div>
+
+        <p class="copyright">
+            © Daniel Bardhaj - All Rights Reserved
+        </p>
+    </footer>
+    <script src="../funksioni.js"></script>
+</body>
+
+</html>
